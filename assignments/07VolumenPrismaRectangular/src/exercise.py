@@ -1,7 +1,13 @@
-# Escribe aquí tus funciones...
+#funciones
+def rectangulo(a, b):
+    return a * b
+
+def volumen_prisma (x, y, z):
+    return rectangulo(x, y) * z
+
 
 def main():
-    #escribe tu código abajo de esta línea
+    #código main
     b = float(input("Dame la base: "))
     a = float(input("Dame la altura: "))
     p = float(input("Dame la profundidad: "))
